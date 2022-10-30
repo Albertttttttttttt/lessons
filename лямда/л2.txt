@@ -1,0 +1,4 @@
+grades = [{'name': 'Alex', 'final': 55},
+         {'name': 'Mira', 'final': 65},
+         {'name': 'Georgyi', 'final': 75}]
+grades = sorted(grades, key = lambda x: list(x.values())[0])
